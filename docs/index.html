@@ -194,14 +194,228 @@
   </a>
 </div>
 
-      <div class="project">
-        <h3>Data Pipeline with dbt + Metabase</h3>
-        <img src="images/dbt_pipeline.png" alt="Data Pipeline Screenshot">
-        <p>Built a complete analytics pipeline using dbt to transform raw source data into modeled insights. Final dashboards in Metabase enabled real-time decision-making for business use.</p>
-        <p><strong>Tools:</strong> dbt, PostgreSQL, Metabase</p>
-        <a href="https://github.com/Shanabunga/dbt-data-project" target="_blank">View GitHub Repo</a>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shannon Wilson | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      background: #0056b3;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #0056b3;
+    }
+    .links a {
+      display: block;
+      margin: 5px 0;
+      color: #007bff;
+      text-decoration: none;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .skill {
+      background: #0056b3;
+      color: white;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+    .projects .project {
+      background: #eef2ff;
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    .projects img {
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .projects a {
+      color: #0056b3;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h1>Shannon Wilson</h1>
+    <h3>Business Intelligence | Data Visualization | UX Design</h3>
+    <p>I’m Shannon Wilson, a data-driven problem solver with 12+ years of experience in business analysis, UX design, and data visualization. I specialize in translating complex data into clear, actionable insights through thoughtful design and compelling dashboards.</p>
+
+    <h2 id="contact">Contact & Links</h2>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/shannon-wilson-la/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Shanabunga" target="_blank">GitHub</a>
+      <a href="https://public.tableau.com/app/profile/shannon.wilson5911/vizzes" target="_blank">Tableau Public</a>
+      <a href="https://www.figma.com/design/3sPR4wmCXAXaOdPYVSFedo/Portfolio?node-id=0-1" target="_blank">Figma Portfolio</a>
+      <a href="mailto:wilson.shannon@gmail.com">Email: wilson.shannon@gmail.com</a>
     </div>
+
+    <h2 id="skills">Skills</h2>
+    <div class="skills">
+      <span class="skill">SQL</span>
+      <span class="skill">PostgreSQL</span>
+      <span class="skill">dbt</span>
+      <span class="skill">MetaBase</span>
+      <span class="skill">Tableau</span>
+      <span class="skill">Data Modeling</span>
+      <span class="skill">Exploratory Data Analysis</span>
+      <span class="skill">Storytelling with Data</span>
+      <span class="skill">UX Design</span>
+      <span class="skill">Business Intelligence</span>
+      <span class="skill">Remote Collaboration</span>
+      <span class="skill">Client Communication</span>
+    </div>
+
+    <h2 id="projects">Projects</h2>
+    <div class="project">
+  <h3>Edmonton Housing Price Prediction Project</h3>
+
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="images/Edmonton-Housing-Prediction-Cover-Page.png" 
+         alt="Housing Project Cover" 
+         style="max-width: 300px; width: 100%; border-radius: 5px; display: inline-block;">
+  </div>
+
+  <p>This project aims to predict housing prices in Edmonton, Alberta, using various features such as property age, location, and zoning. It supports homeowners and investors in making informed property decisions through data analysis and machine learning models.</p>
+
+  <div style="text-align: center; margin: 30px 0;">
+    <img src="images/Edmonton-Housing-Prediction-Final-ML.jpg" 
+         alt="Random Forest Model Graph" 
+         style="max-width: 300px; width: 100%; border-radius: 5px; display: inline-block;">
+    <p style="font-size: 0.85em; color: #555; margin-top: 8px;">
+      Random Forest Model after refinement<br>
+      <strong>r² = 0.86</strong> &nbsp;•&nbsp; <strong>MSE = 487M</strong>
+    </p>
+  </div>
+
+  <p><strong>Tools:</strong> Python, pandas, scikit-learn, Random Forest</p>
+
+  <a href="https://github.com/Shanabunga/Edmonton_Housing_Price_Prediction_Project" 
+     target="_blank" 
+     style="display: inline-block; background: #0056b3; color: white; padding: 8px 14px; border-radius: 5px; text-decoration: none; margin-top: 10px;">
+    View on GitHub
+  </a>
+</div>
+
+
+
+
+<div class="project">
+  <h3>Edmonton Edible Fruit Tree Analysis</h3>
+
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="images/Edmonton-Fruit-Tree-Analysis-Cover.png" 
+         alt="Edmonton Edible Fruit Tree Analysis Cover" 
+         style="max-width: 300px; width: 100%; border-radius: 5px;">
+  </div>
+
+  <p>This project analyzes the edible fruit tree landscape within the City of Edmonton, aiming to promote urban sustainability and engage the community. Using Tableau for data visualization, the analysis identifies resilient tree species that thrive in Edmonton’s climate and offers insights for strategic urban planning and community harvest initiatives.</p>
+
+  <div style="text-align: center; margin: 30px 0;">
+    <img src="images/Edmonton-Fruit-Tree-Tableau.png" 
+         alt="Tableau Storyboard Example" 
+         style="max-width: 300px; width: 100%; border-radius: 5px;">
+    <p style="font-size: 0.85em; color: #555; margin-top: 8px;">Tableau storyboard showing tree health, neighborhood insights, and fruit tree diversity</p>
+  </div>
+
+  <p><strong>Tools:</strong> Tableau, Excel, Public Open Data, Persona Design, Data Storytelling</p>
+
+  <a href="https://github.com/Shanabunga/Edmonton_Edible_Fruit_Tree" 
+     target="_blank" 
+     style="display: inline-block; background: #0056b3; color: white; padding: 8px 14px; border-radius: 5px; text-decoration: none; margin-top: 10px;">
+    View on GitHub
+  </a>
+
+  &nbsp;
+
+  <a href="https://public.tableau.com/app/profile/shannon.wilson5911/viz/EdmontonEdibleFruitTreeProjectFinal/Story1" 
+     target="_blank" 
+     style="display: inline-block; background: #0056b3; color: white; padding: 8px 14px; border-radius: 5px; text-decoration: none; margin-top: 10px;">
+    View Tableau Dashboard
+  </a>
+
+  &nbsp;
+
+  <a href="https://www.linkedin.com/pulse/edmontons-edible-fruit-tree-analysis-unlocking-insights-wilson-kcihc" 
+     target="_blank" 
+     style="display: inline-block; background: #0056b3; color: white; padding: 8px 14px; border-radius: 5px; text-decoration: none; margin-top: 10px;">
+    Read LinkedIn Article
+  </a>
+</div>
+
+
+<div class="project">
+  <h3>Simple Stack Data Engineering Project</h3>
+
+  <p>This repository consists of a dbt project designed to transform raw data into structured, analytics-ready models. The project follows modern data engineering best practices to ensure efficient, scalable, and maintainable data workflows.</p>
+
+  <p>The goal of this project is to implement a simple and effective data architecture that supports analytics and reporting needs. It integrates data ingestion, transformation, testing, and deployment into a streamlined process, ensuring high-quality data pipelines.</p>
+
+  <p><strong>Tools:</strong> dbt, PostgreSQL, Metabase, YAML, Jinja, SQL</p>
+
+  <a href="https://github.com/Shanabunga/ssp_analytics_dataeng_project" 
+     target="_blank" 
+     style="display: inline-block; background: #0056b3; color: white; padding: 8px 14px; border-radius: 5px; text-decoration: none; margin-top: 10px;">
+    View on GitHub
+  </a>
+</div>
+
+
+    <footer>
+      © 2025 Shannon Wilson | Built with ❤️ and HTML/CSS
+    </footer>
+  </div>
+</body>
+</html>
 
     <footer>
       © 2025 Shannon Wilson | Built with ❤️ and HTML/CSS
